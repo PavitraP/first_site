@@ -1,2 +1,31 @@
-<!DOCTYPE html>
-h1 {color: red;}
+header {
+      text-align: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: pink;
+      color: white;
+      background-image: url("http://ahdimages.com/wp-content/uploads/2014/05/famous-quotes-by-famous-people-6.jpg");
+      background-position: right;
+    }
+     li.header_links 
+     {display: inline;
+      padding: 0px 10px 0px 10px;}
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+
+    }
+    .quotes{}
+    {
+    .first{background-image: url("http://ahdimages.com/famous-quotes-famous-people/famous-quotes-by-famous-people-6/");
+    }

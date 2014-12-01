@@ -1,51 +1,18 @@
 <!DOCTYPE html>
 <head>
-  <link href="/normalize.css" rel="stylesheet">
-  <style>
-    header {
-      text-align: center;
-      background-size: cover;
-      background-color: pink;
-      color: white;
-    }
-    a {
-      color: white;
-    }
-    h1 {
-      font-size: 70px;
-    }
-    img {
-      margin: 40px 0px 0px 0px;
-      border: 7px solid white;
-      border-radius: 20px;
-    }
-    ul {
-      padding: 10px;
-      background: black;
-    }
-    li {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-    }
-    {
-    .first{background-image: url("http://ahdimages.com/famous-quotes-famous-people/famous-quotes-by-famous-people-6/");
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href='main.css' >
 </head>
 <body>
   <header>
     <h1> Quotopia </h1>
     <ul>
-      <li><a href="#"> Inspirational Quotes </a></li>
-      <li><a href="#"> Quotes on life </a></li>
-      <li><a href="#"> Quotes by famous people </a></li>
+      <li class="header_links"><a href="#inspirational"> Inspirational Quotes </a></li>
+      <li class="header_links"><a href="#funny"> Funny Quotes </a></li>
+      <li class="header_links"><a href="#famous"> Quotes by famous people </a></li>
     </ul>
   </header>
-  <style>
-  ul {background-color: black;}
-  </style>
-  <h2> Inspirational Quotes </h2>
-  <p> <b>
+  <h2 id="inspirational"> Inspirational Quotes </h2>
+  <p> <b> <ul class="quotes">
    <li>"If opportunity doesn't knock, build a door." </li>
    <li> "There is no elevator to success, you have to take the stairs." </li>
    <li> "Be strong. Because things will get better. I may be stormy now but it never rains forever." </li>
@@ -55,10 +22,10 @@
    <li> "Fall seven times, stand up eight." </li>
    <li> "In order to succeed, your desire for success must be greater than your fear of failure." </li>
    <li> "There will be obstacles. There will be doubters. There will be mistakes. But with hard work, there are no limits." </li>
-  <li> "Strong women wear their pain like stilletos, no matter how much it hurts, all you see is the beauty of it." </li>
+  <li> "Strong women wear their pain like stilletos, no matter how much it hurts, all you see is the beauty of it." </li> </ul>
   </b> </p>
-  <h2> Funny Quotes </h2>
-  <p> <b> <li> "I'm not lazy, I'm just on my energy saving mode." </li>
+  <h2 id="funny"> Funny Quotes </h2>
+  <p> <b> <ul class="quotes"> <li> "I'm not lazy, I'm just on my energy saving mode." </li>
   <li> "Life was much easier when Apple and Blackberry were just fruits." </li>
   <li> "With great power comes great electricity bills." </li>
   <li> "If each day is a gift, I would like to know where I can return Mondays." </li>
@@ -67,9 +34,10 @@
   <li> "The secret to happiness is...to have a bad memory!" </li>
   <li> "If you can't convince them, confuse them." </li>
   <li> "If you don't do a lot of stupid things when you are young. You don't have funny things to talk about when you are old" </li>
-  <li> "Life is short, smile while you still have teeth." </li>
-</b> <h2> Quotes by famous people </h2>
+  <li> "Life is short, smile while you still have teeth." </li> </ul>
+</b> <h2 id="famous"> Quotes by famous people </h2> 
   <p> <b> 
+    <ul class="quotes">
   <li> "When I was 5 years old, my mother told me that happiness was the key to life. When I went to school, they asked me what I wanted to be when i grew up. I wrote down 'happy'. They told me I did not understand the assignment, I told them they did not understand life." -John Lennon </li>
   <li> "If you want to live a happy life, tie it to a goal. Not to people or things." - Albert Einstein </li>
   <li> "A pessimist sees the difficulty in every opportunity; an optimist sees the opportunity in every difficulty." - Winston Churchill </li>
@@ -80,6 +48,6 @@
   <li> "An eye for an eye only ends up making the whole word blind." - Gandhi </li>
   <li> "The mind is everything. WHat you think, you become." - Buddha </li>
   <li> "All our dreams come true if we have the courage to pursue them." - Walt Disney </li>
-   </b> </p>
+</ul>   </b> </p>
 </body>
 
